@@ -43,11 +43,13 @@
         }
 
         .brand-logo-container {
-            display: flex;
+            display: inline-flex;
             align-items: center;
-            background: transparent;
-            padding: 0;
-            transition: transform 0.2s ease;
+            background: none !important;
+            background-color: transparent !important;
+            padding: 0 !important;
+            border: none !important;
+            box-shadow: none !important;
         }
 
         .brand-logo-container:hover {
@@ -58,8 +60,10 @@
             height: 90px;
             width: auto;
             object-fit: contain;
-            mix-blend-mode: screen; 
-            filter: contrast(110%) brightness(110%);
+            background: transparent !important;
+            background-color: transparent !important;
+            mix-blend-mode: normal !important;
+            filter: none !important;
         }
 
         .tag-cr {
